@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 3.972 s <<< FAILURE! - in TestSuite
+SetUp(testcases.LoginTest)  Time elapsed: 2.606 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C00C83+1707139]
+	Ordinal0 [0x00B668F1+1075441]
+	Ordinal0 [0x00ADDFC9+516041]
+	Ordinal0 [0x00A6C70E+50958]
+	Ordinal0 [0x00A8BFD7+180183]
+	Ordinal0 [0x00A8BDDD+179677]
+	Ordinal0 [0x00A89D4B+171339]
+	Ordinal0 [0x00A71D4A+73034]
+	Ordinal0 [0x00A72DC0+77248]
+	Ordinal0 [0x00A72D59+77145]
+	Ordinal0 [0x00B7BB67+1162087]
+	GetHandleVerifier [0x00C9A966+508998]
+	GetHandleVerifier [0x00C9A6A4+508292]
+	GetHandleVerifier [0x00CAF7B7+594583]
+	GetHandleVerifier [0x00C9B1D6+511158]
+	Ordinal0 [0x00B7402C+1130540]
+	Ordinal0 [0x00B7D4CB+1168587]
+	Ordinal0 [0x00B7D633+1168947]
+	Ordinal0 [0x00B95B35+1268533]
+	BaseThreadInitThunk [0x76476739+25]
+	RtlGetFullPathName_UEx [0x77098FEF+1215]
+	RtlGetFullPathName_UEx [0x77098FBD+1165]
+
+
+LoginsAsManager(testcases.LoginTest)  Time elapsed: 2.682 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)" because the return value of "utilities.ExtentReports.ExtentTestManager.getTest()" is null
+
+SetUp(testcases.addCustomerTest)  Time elapsed: 3.437 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C00C83+1707139]
+	Ordinal0 [0x00B668F1+1075441]
+	Ordinal0 [0x00ADDFC9+516041]
+	Ordinal0 [0x00A6C70E+50958]
+	Ordinal0 [0x00A8BFD7+180183]
+	Ordinal0 [0x00A8BDDD+179677]
+	Ordinal0 [0x00A89D4B+171339]
+	Ordinal0 [0x00A71D4A+73034]
+	Ordinal0 [0x00A72DC0+77248]
+	Ordinal0 [0x00A72D59+77145]
+	Ordinal0 [0x00B7BB67+1162087]
+	GetHandleVerifier [0x00C9A966+508998]
+	GetHandleVerifier [0x00C9A6A4+508292]
+	GetHandleVerifier [0x00CAF7B7+594583]
+	GetHandleVerifier [0x00C9B1D6+511158]
+	Ordinal0 [0x00B7402C+1130540]
+	Ordinal0 [0x00B7D4CB+1168587]
+	Ordinal0 [0x00B7D633+1168947]
+	Ordinal0 [0x00B95B35+1268533]
+	BaseThreadInitThunk [0x76476739+25]
+	RtlGetFullPathName_UEx [0x77098FEF+1215]
+	RtlGetFullPathName_UEx [0x77098FBD+1165]
+
+
+addCustomerTest(testcases.addCustomerTest)  Time elapsed: 3.822 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)" because the return value of "utilities.ExtentReports.ExtentTestManager.getTest()" is null
+
