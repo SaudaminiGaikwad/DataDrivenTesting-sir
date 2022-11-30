@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="manager "
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="8.303">
+  <properties />
+  
+            <testcase name="screenshotValidationAmeo" time="0.0" classname="testcases.addCustomerTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="addCustomerTest" time="1.142" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="0.969" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="0.843" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.186" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="0.966" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.083" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.060" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.029" classname="testcases.addCustomerTest" />
+      
+</testsuite>
